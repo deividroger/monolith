@@ -17,7 +17,7 @@ describe("Product Repository test",()=>{
         
         await sequelize.addModels([ProductModel]);
 
-        await sequelize.sync();
+         sequelize.sync();
    
     });
 
